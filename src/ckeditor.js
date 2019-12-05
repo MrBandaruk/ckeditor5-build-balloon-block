@@ -40,6 +40,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount';
+import Title from '@ckeditor/ckeditor5-heading/src/title';
 
 import '../theme/theme.css';
 
@@ -79,7 +80,8 @@ BalloonEditor.builtinPlugins = [
 	TextTransformation,
 	Alignment,
 	TodoList,
-	WordCount
+	WordCount,
+	Title
 ];
 
 // Editor configuration.
