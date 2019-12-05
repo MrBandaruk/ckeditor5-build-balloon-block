@@ -1,7 +1,7 @@
 {
-  "name": "@ckeditor/ckeditor5-build-balloon-block",
+  "name": "ckeditor5-build-dailycoding",
   "version": "16.0.0",
-  "description": "The balloon editor build of CKEditor 5 with a block toolbar – the best browser-based rich text editor.",
+  "description": "dailycoding.io rich text editor",
   "keywords": [
     "wysiwyg",
     "rich text",
@@ -64,13 +64,13 @@
     "node": ">=8.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "MrBandaruk",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
+  "homepage": "https://github.com/MrBandaruk",
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-balloon-block.git"
+    "url": "https://github.com/MrBandaruk/ckeditor5-build-balloon-block"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -90,11 +90,6 @@
     "build/**",
     "packages/**"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "@ckeditor/ckeditor5-alignment": "^16.0.0",
     "@ckeditor/ckeditor5-code-block": "^16.0.0",
